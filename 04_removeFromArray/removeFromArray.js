@@ -22,7 +22,13 @@ const removeFromArray = function(...args) {
         4- Quando Percorrer o nDelete todo passa ha proxima posicao do arrayP e volta a fazer o ciclo ao nDelete , a verificacao e elimina se for o caso
 
       */
-  
+        // A simpler, but more advanced way to do it is to use the 'filter' function,
+        // which basically does what we did with the forEach above.
+
+        // var removeFromArray = function(array, ...args) {
+        //   return array.filter(val => !args.includes(val))
+        // }
+        //
 };
 
 // Do not edit below this line
